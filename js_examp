@@ -1,0 +1,13 @@
+class student{
+    constractor(stu_name, stu_id, stu_batch){
+        this.stu_name = stu_name;
+        this.stu_id = stu_id;
+        this.stu_batch = stu_batch;
+        
+    }
+    displayinfo(){
+        return `${this.stu_name} is the ${this.stu_id} college id is used to ${this.stu_batch} displaying here`;
+    }
+}
+const studentname= new student("neelkamal nishad",  'stu_3452', "batch20");
+console.log(studentname.displayinfo());
